@@ -1,0 +1,57 @@
+# ============================================================
+# .gitignore — RISC-V BFPU Project
+# ============================================================
+
+# ----- Xilinx Vivado -----
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.ghd
+*.bit
+*.bin
+*.ltx
+*.xsa
+*.tcl.bak
+*.runs/
+*.cache/
+*.ip_user_files/
+*.sim/
+*.hw/
+*.srcs/
+vivado_*.backup.jou
+vivado_*.backup.log
+.Xil/
+
+# ----- Icarus Verilog -----
+*.out
+*.vvp
+*.lxt
+*.fst
+
+# ----- GTKWave -----
+*.gtkw
+
+# ----- Compiled / generated objects -----
+*.o
+*.a
+*.so
+*.elf
+*.map
+
+# ----- OS / editor junk -----
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# ----- Local overrides -----
+*.local
+local.mk
